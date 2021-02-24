@@ -1,0 +1,21 @@
+{
+    "name": "saav-tek/yii2-share-buttons-widget",
+    "description": "Social Media share buttons widget.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "SAAV-Tek",
+            "homepage": "https://github.com/saav-tek"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "saavtek\\ShareButtonsWidget\\": "src/"
+        }
+    }
+}
